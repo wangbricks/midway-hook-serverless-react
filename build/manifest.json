@@ -1,0 +1,30 @@
+{
+  "index.html": {
+    "file": "assets/index.9f848fbc.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.0a6c4a8c.js"
+    ],
+    "css": [
+      "assets/index.0673ce28.css"
+    ],
+    "assets": [
+      "assets/logo.ecc203fb.svg"
+    ]
+  },
+  "_vendor.0a6c4a8c.js": {
+    "file": "assets/vendor.0a6c4a8c.js",
+    "dynamicImports": [
+      "node_modules/_superjson@1.7.4@superjson/dist/esm/index.js"
+    ]
+  },
+  "node_modules/_superjson@1.7.4@superjson/dist/esm/index.js": {
+    "file": "assets/index.7b0c2d4c.js",
+    "src": "node_modules/_superjson@1.7.4@superjson/dist/esm/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.0a6c4a8c.js"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+edition: 1.0.0
+access: my
+
+services:
+  midway-hook-vue:
+    component: devsapp/midway-hook
+    props:
+      service:
+        name: devsapp-midway-vue-app
+      provider:
+        name: aliyun
+        runtime: nodejs12
+        region: cn-hangzhou
+      aggregation:
+        fass-all:
+          functionsPattern:
+            - '*'
+      package:
+        include:
+          - build
+
